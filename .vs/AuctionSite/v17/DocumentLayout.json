@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "F:\\C#\\AuctionSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +35,61 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BId.cs",
-              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\BId.cs",
-              "RelativeDocumentMoniker": "AuctionSite\\Models\\BId.cs",
-              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\BId.cs",
-              "RelativeToolTip": "AuctionSite\\Models\\BId.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T17:52:17.072Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\appsettings.json",
+              "RelativeDocumentMoniker": "AuctionSite\\appsettings.json",
+              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\appsettings.json",
+              "RelativeToolTip": "AuctionSite\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T12:30:34.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AuctionSite\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AuctionSite\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:21:49.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "AuctionSite\\Models\\Comment.cs",
+              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\Comment.cs",
+              "RelativeToolTip": "AuctionSite\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T12:18:17.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bid.cs",
+              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\Bid.cs",
+              "RelativeDocumentMoniker": "AuctionSite\\Models\\Bid.cs",
+              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\Bid.cs",
+              "RelativeToolTip": "AuctionSite\\Models\\Bid.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T17:52:17.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Listing.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\Listing.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Models\\Listing.cs",
               "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Models\\Listing.cs",
               "RelativeToolTip": "AuctionSite\\Models\\Listing.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBgAAAAuAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T15:12:52.536Z"
             }

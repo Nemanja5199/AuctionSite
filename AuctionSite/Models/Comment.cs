@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using AuctionSite.Models;
 
-namespace AuctionSite.Models
+namespace Auctions.Models
 {
-    public class Bid
+    public class Comment
     {
-
         public int Id { get; set; }
-        public double Price { get; set; }
+        public string Content { get; set; }
 
         [Required]
         public string? IdentityUserId { get; set; }
