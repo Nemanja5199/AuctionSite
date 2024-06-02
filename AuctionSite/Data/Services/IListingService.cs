@@ -6,5 +6,7 @@ namespace AuctionSite.Data.Services
     {
 
         IQueryable<Listing> GetAll();
+
+        Task Add(Listing listing);
     }
 }

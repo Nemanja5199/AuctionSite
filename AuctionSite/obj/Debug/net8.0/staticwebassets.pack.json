@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\AuctionSite.bundle.scp.css"
     },
     {
+      "Id": "F:\\C#\\AuctionSite\\AuctionSite\\wwwroot\\Images\\Watch.webp",
+      "PackagePath": "staticwebassets\\Images\\Watch.webp"
+    },
+    {
+      "Id": "F:\\C#\\AuctionSite\\AuctionSite\\wwwroot\\Images\\menstshirtsmain1.jpg",
+      "PackagePath": "staticwebassets\\Images\\menstshirtsmain1.jpg"
+    },
+    {
+      "Id": "F:\\C#\\AuctionSite\\AuctionSite\\wwwroot\\Images\\watch.jpg",
+      "PackagePath": "staticwebassets\\Images\\watch.jpg"
+    },
+    {
       "Id": "F:\\C#\\AuctionSite\\AuctionSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
