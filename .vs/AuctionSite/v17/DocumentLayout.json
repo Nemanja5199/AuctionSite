@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "F:\\C#\\AuctionSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\views\\listings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\views\\listings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,11 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AuctionSite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AuctionSite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwD4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:37:52.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AuctionSite\\wwwroot\\css\\site.css",
+              "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AuctionSite\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-04T19:34:34.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Listings\\Edit.cshtml",
               "RelativeDocumentMoniker": "AuctionSite\\Views\\Listings\\Edit.cshtml",
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Listings\\Index.cshtml",
               "RelativeDocumentMoniker": "AuctionSite\\Views\\Listings\\Index.cshtml",
@@ -66,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Listings\\Create.cshtml",
               "RelativeDocumentMoniker": "AuctionSite\\Views\\Listings\\Create.cshtml",
@@ -78,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Listings\\Details.cshtml",
               "RelativeDocumentMoniker": "AuctionSite\\Views\\Listings\\Details.cshtml",
               "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Views\\Listings\\Details.cshtml",
               "RelativeToolTip": "AuctionSite\\Views\\Listings\\Details.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-03T19:01:15.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ListingService.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\Services\\ListingService.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Data\\Services\\ListingService.cs",
@@ -103,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IListingService.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\Services\\IListingService.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Data\\Services\\IListingService.cs",
@@ -115,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ListingsController.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Controllers\\ListingsController.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Controllers\\ListingsController.cs",
