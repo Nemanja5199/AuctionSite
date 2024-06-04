@@ -9,6 +9,7 @@ using AuctionSite.Data;
 using AuctionSite.Models;
 using AuctionSite.Data.Services;
 using Auctions.Models;
+using Auctions;
 
 namespace AuctionSite.Controllers
 {
@@ -24,10 +25,18 @@ namespace AuctionSite.Controllers
         }
 
         // GET: Listings
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber, string searchString)
         {
             var applicationDbContext = _listingService.GetAll();
-            return View(await applicationDbContext.ToListAsync());
+            int pageSize = 3;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                applicationDbContext = applicationDbContext.Where(a => a.Title.Contains(searchString));
+                return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(), pageNumber ?? 1, pageSize));
+            }
+
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(),pageNumber?? 1,pageSize));
         }
 
         // get: listings/details/5

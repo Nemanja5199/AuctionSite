@@ -1,12 +1,11 @@
-﻿@model List<AuctionSite.Models.Listing>
-
+﻿@model PaginatedList<AuctionSite.Models.Listing>
 @{
     ViewData["Title"] = "Index";
 }
 
 <h2>Active Listings</h2>
 
-@foreach(var listing in Model)
+@foreach (var listing in Model)
 {
     <div class="container" style="background-color: rgba(138, 129, 133, 0.6); margin-top:50px; margin-bottom: 50px; padding: 20px; border-radius:10px;">
         <div class="row">
@@ -22,8 +21,28 @@
         </div>
     </div>
 }
-
-@if(!Model.Any())
+@if (!Model.Any())
 {
     <p>No Active Listings</p>
 }
+
+@{
+    var prevDisabled = !Model.HasPreviousPage? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="d-flex justify-content-center">
+    <a asp-action="Index"
+       asp-route-pageNumber="@(Model.PageIndex - 1)"
+       class="btn btn-default @prevDisabled">
+        Previous
+    </a>
+    <div class="btn" style="cursor: default">
+        Page @Model.PageIndex of @Model.TotalPages
+    </div>
+    <a asp-action="Index"
+       asp-route-pageNumber="@(Model.PageIndex + 1)"
+       class="btn btn-default @nextDisabled">
+        Next
+    </a>
+</div>
