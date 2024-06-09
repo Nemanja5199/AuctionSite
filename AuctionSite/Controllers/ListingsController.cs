@@ -16,12 +16,14 @@ namespace AuctionSite.Controllers
     public class ListingsController : Controller
     {
         private readonly IListingService _listingService;
+        private readonly IBidsService _bidService;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ListingsController(IListingService listingService, IWebHostEnvironment webHostEnvironment)
+        public ListingsController(IListingService listingService, IWebHostEnvironment webHostEnvironment, IBidsService bidService)
         {
             _listingService = listingService;
             _webHostEnvironment = webHostEnvironment;
+            _bidService = bidService;
         }
 
         // GET: Listings
@@ -56,6 +58,8 @@ namespace AuctionSite.Controllers
 
             return View(listing);
         }
+
+
 
         // GET: Listings/Create
         public IActionResult Create()
@@ -97,6 +101,32 @@ namespace AuctionSite.Controllers
             }
            return View(listing);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> AddBid([Bind("Id, Price, ListingId, IdentityUserId")] Bid bid)
+        {
+            if (ModelState.IsValid)
+            {
+                await _bidService.Add(bid);
+
+
+            }
+            var listing= await _listingService.GetById(bid.ListingId);
+            listing.Price=bid.Price;
+            await _listingService.SaveChanges();
+            return View("Details", listing);
+            
+        }
+
+        public async Task<ActionResult> CloseBidding(int id)
+        {
+            var listing = await _listingService.GetById(id);
+            listing.IsSold = true;
+            await _listingService.SaveChanges();
+            return View("Details", listing);
+
+        }
+
 
         //// GET: Listings/Edit/5
         //public async Task<IActionResult> Edit(int? id)
