@@ -10,6 +10,7 @@ using AuctionSite.Models;
 using AuctionSite.Data.Services;
 using Auctions.Models;
 using Auctions;
+using System.Security.Claims;
 
 namespace AuctionSite.Controllers
 {
@@ -41,6 +42,17 @@ namespace AuctionSite.Controllers
             }
 
             return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(),pageNumber?? 1,pageSize));
+        }
+
+
+        public async Task<IActionResult> MyListings(int? pageNumber)
+        {
+            var applicationDbContext = _listingService.GetAll();
+            int pageSize = 3;
+
+            
+
+            return View("Index", await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l =>l.IdentityUserId == User.FindFirstValue(ClaimTypes.NameIdentifier)).AsNoTracking(), pageNumber ?? 1, pageSize));
         }
 
         // get: listings/details/5

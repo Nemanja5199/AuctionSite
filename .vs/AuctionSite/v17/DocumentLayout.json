@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\C#\\AuctionSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\data\\services\\commentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\data\\services\\commentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\data\\services\\listingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\data\\services\\listingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|solutionrelative:auctionsite\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{037F9ADC-462F-4267-90AC-9E8F9CB91ED0}|AuctionSite\\AuctionSite.csproj|f:\\c#\\auctionsite\\auctionsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,24 +78,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CommentsService.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\Services\\CommentsService.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Data\\Services\\CommentsService.cs",
               "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\Services\\CommentsService.cs",
               "RelativeToolTip": "AuctionSite\\Data\\Services\\CommentsService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T07:49:00.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BidsService.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\Services\\BidsService.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Data\\Services\\BidsService.cs",
@@ -103,8 +103,7 @@
               "RelativeToolTip": "AuctionSite\\Data\\Services\\BidsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:58:52.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T17:58:52.872Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "AuctionSite\\Data\\Services\\ICommentsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T07:48:04.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T07:48:04.815Z"
             },
             {
               "$type": "Document",
@@ -177,12 +175,11 @@
               "RelativeToolTip": "AuctionSite\\Views\\Listings\\Details.cshtml",
               "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T19:01:15.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T19:01:15.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ListingService.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Data\\Services\\ListingService.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Data\\Services\\ListingService.cs",
@@ -190,8 +187,7 @@
               "RelativeToolTip": "AuctionSite\\Data\\Services\\ListingService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:55:38.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T18:55:38.96Z"
             },
             {
               "$type": "Document",
@@ -207,13 +203,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ListingsController.cs",
               "DocumentMoniker": "F:\\C#\\AuctionSite\\AuctionSite\\Controllers\\ListingsController.cs",
               "RelativeDocumentMoniker": "AuctionSite\\Controllers\\ListingsController.cs",
               "ToolTip": "F:\\C#\\AuctionSite\\AuctionSite\\Controllers\\ListingsController.cs",
               "RelativeToolTip": "AuctionSite\\Controllers\\ListingsController.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAtwI4AAAAJAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T18:51:17.927Z",
               "EditorCaption": ""
@@ -228,8 +224,7 @@
               "RelativeToolTip": "AuctionSite\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T20:26:08.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T20:26:08.823Z"
             },
             {
               "$type": "Document",
